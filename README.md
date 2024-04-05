@@ -108,7 +108,7 @@ The bonus part will only be assessed if the mandatory part is PERFECT. Perfect m
 
 #### Function name: `ft_lstnew`
 
-```c
+```
 Prototype: t_list *ft_lstnew(void *content);
 ```
 
@@ -123,7 +123,7 @@ Prototype: t_list *ft_lstnew(void *content);
 
 #### Function name: `ft_lstadd_front`
 
-```c
+```
 Prototype: void ft_lstadd_front(t_list **lst, t_list *new);
 ```
 
@@ -139,7 +139,7 @@ Prototype: void ft_lstadd_front(t_list **lst, t_list *new);
 
 #### Function name: `ft_lstsize`
 
-```c
+```
 Prototype: int ft_lstsize(t_list *lst);
 ```
 
@@ -154,7 +154,7 @@ Prototype: int ft_lstsize(t_list *lst);
 
 #### Function name: `ft_lstlast`
 
-```c
+```
 Prototype: t_list *ft_lstlast(t_list *lst);
 ```
 
@@ -169,7 +169,7 @@ Prototype: t_list *ft_lstlast(t_list *lst);
 
 #### Function name: `ft_lstadd_back`
 
-```c
+```
 Prototype: void ft_lstadd_back(t_list **lst, t_list *new);
 ```
 
@@ -185,7 +185,7 @@ Prototype: void ft_lstadd_back(t_list **lst, t_list *new);
 
 #### Function name: `ft_lstdelone`
 
-```c
+```
 Prototype: void ft_lstdelone(t_list *lst, void (*del)(void *));
 ```
 
@@ -201,7 +201,7 @@ Prototype: void ft_lstdelone(t_list *lst, void (*del)(void *));
 
 #### Function name: `ft_lstclear`
 
-```c
+```
 Prototype: void ft_lstclear(t_list **lst, void (*del)(void *));
 ```
 
@@ -217,7 +217,7 @@ Prototype: void ft_lstclear(t_list **lst, void (*del)(void *));
 
 #### Function name: `ft_lstiter`
 
-```c
+```
 Prototype: void ft_lstiter(t_list *lst, void (*f)(void *));
 ```
 
@@ -233,7 +233,7 @@ Prototype: void ft_lstiter(t_list *lst, void (*f)(void *));
 
 #### Function name: `ft_lstmap`
 
-```c
+```
 Prototype: t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 ```
 
